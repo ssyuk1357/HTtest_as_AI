@@ -156,4 +156,4 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
             cb_send_btn.click(fn=counseling_bot_chat, inputs=[cb_user_input, cb_chatbot], outputs=[cb_user_input, cb_chatbot])
             cb_user_input.submit(fn=counseling_bot_chat, inputs=[cb_user_input, cb_chatbot], outputs=[cb_user_input, cb_chatbot])
 
-app.launch(server_port=7860)
+app.launch(server_port=7861)
